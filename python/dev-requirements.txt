@@ -5,3 +5,8 @@ pytest-asyncio==0.23.8
 pytest-xdist==3.6.1
 pytest-socket==0.7.0
 packaging
+# Temporary: Required for local dev/CI testing of openinference-instrumentation changes.
+# openinference-instrumentation now imports from opentelemetry.semconv._incubating which
+# requires this version. Once openinference-instrumentation is published, this can be
+# removed as the dependency will be installed transitively via the package's pyproject.toml.
+opentelemetry-semantic-conventions>=0.60b0
