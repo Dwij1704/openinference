@@ -79,4 +79,3 @@ class GenAIEventNames:
     ASSISTANT_MESSAGE = "gen_ai.assistant.message"
     TOOL_MESSAGE = "gen_ai.tool.message"
     CHOICE = "gen_ai.choice"
-
